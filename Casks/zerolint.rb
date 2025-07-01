@@ -15,23 +15,23 @@ cask "zerolint" do
 
   on_macos do
     on_intel do
-      url "https://github.com/eikemeier/zerolint/releases/download/v0.0.11/zerolint_darwin_amd64.tar.gz"
-      sha256 "184292f15d5291d869249a1f952cd4b6da53247946beee8fbe574c854c8b7476"
+      url "https://github.com/eikemeier/zerolint/releases/download/v0.0.11/zerolint_darwin_amd64"
+      sha256 "0301dd940b3985bb79ea139aa01330f97c54b5dec396ed82c1c7748948e6bba9"
     end
     on_arm do
-      url "https://github.com/eikemeier/zerolint/releases/download/v0.0.11/zerolint_darwin_arm64.tar.gz"
-      sha256 "2b4c3a148a03e1916aebbb0ed4412fb9ead31a353de43284737a44c8be7c83f2"
+      url "https://github.com/eikemeier/zerolint/releases/download/v0.0.11/zerolint_darwin_arm64"
+      sha256 "2fd98e76cbe403161fef014917247e9ae4ce4dcee50eba10551048812ca27201"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/eikemeier/zerolint/releases/download/v0.0.11/zerolint_linux_amd64.tar.gz"
-      sha256 "a257596303a03f40bb15a55ec4b8fd7cd43c9938821e9895f82d83b84450aada"
+      url "https://github.com/eikemeier/zerolint/releases/download/v0.0.11/zerolint_linux_amd64"
+      sha256 "01bd768b761615de87d265d0b881e24f31ac09a3fb065aa980ac1e4e3af15614"
     end
     on_arm do
-      url "https://github.com/eikemeier/zerolint/releases/download/v0.0.11/zerolint_linux_arm64.tar.gz"
-      sha256 "d7b746a67275e8cdfb472bca7cbd4cb073afb0e050e2dd9f5949503eeee02626"
+      url "https://github.com/eikemeier/zerolint/releases/download/v0.0.11/zerolint_linux_arm64"
+      sha256 "68d629b311241a00f8507dec4d244b51546d17f91240a7d31e91d9d52c20eddb"
     end
   end
 
